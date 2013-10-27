@@ -86,7 +86,7 @@ object Build extends sbt.Build {
   object Deps {
     val knockoff = "net.databinder" %% "pamflet-knockoff" % "0.4.2"
     val codec = "commons-codec" % "commons-codec" % "1.4"
-    val specs = "org.scala-tools.testing" %% "specs" % "1.6.9" % "test"
+    val specs = "org.specs2" %% "specs2" % "1.12.4.1" % "test"
     val uf_version = "0.6.1"
     val uff = "net.databinder" %% "unfiltered-filter" % uf_version
     val ufj = "net.databinder" %% "unfiltered-jetty" % uf_version
